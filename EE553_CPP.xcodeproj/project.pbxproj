@@ -25,8 +25,8 @@
 /* Begin PBXFileReference section */
 		80E65E2E21E1432500D53436 /* EE553_CPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EE553_CPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E65E3121E1432500D53436 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		80E65E3821E1434A00D53436 /* session2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = session2.h; path = ../../../Documents/EE553_CPP/EE553_CPP/session2.h; sourceTree = "<group>"; };
-		80E65E3921E1439A00D53436 /* session3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = session3.h; path = ../../../Documents/EE553_CPP/EE553_CPP/session3.h; sourceTree = "<group>"; };
+		80E65E3A21E145AF00D53436 /* session2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = session2.h; sourceTree = "<group>"; };
+		80E65E3B21E145D300D53436 /* session3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = session3.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				80E65E3121E1432500D53436 /* main.cpp */,
-				80E65E3821E1434A00D53436 /* session2.h */,
-				80E65E3921E1439A00D53436 /* session3.h */,
+				80E65E3A21E145AF00D53436 /* session2.h */,
+				80E65E3B21E145D300D53436 /* session3.h */,
 			);
 			path = EE553_CPP;
 			sourceTree = "<group>";

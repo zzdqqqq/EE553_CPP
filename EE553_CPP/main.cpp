@@ -27,6 +27,6 @@ void session1(){
     cout << "hello world" << endl;
     cout << 2000 * 2000 << '\n';
     cout << 2000000L * 2000000 << '\n';
-    //    cout << 2000000L * 2000000L << '\n';
-    //    cout << 2000000LL * 2000000 << '\n'; // type promotion
+//    cout << 2000000L * 2000000L << '\n';
+//    cout << 2000000LL * 2000000 << '\n'; // type promotion
 }

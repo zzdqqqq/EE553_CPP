@@ -7,26 +7,21 @@
 //
 
 #include <iostream>
+#include <iomanip>
+#include "session1.h"
 #include "session2.h"
 #include "session3.h"
-using namespace std;
+//using namespace std;
 
 // declare function first
-void session1();
-void session2();
-void session3();
+void func1();
+void func2();
+void func3();
 // main function
 int main() {
-    session1();
-    session2();
-    session3();
+    func1();
+    func2();
+    func3();
     return 0;
 }
-// define own function
-void session1(){
-    cout << "hello world" << endl;
-    cout << 2000 * 2000 << '\n';
-    cout << 2000000L * 2000000 << '\n';
-//    cout << 2000000L * 2000000L << '\n';
-//    cout << 2000000LL * 2000000 << '\n'; // type promotion
-}
+

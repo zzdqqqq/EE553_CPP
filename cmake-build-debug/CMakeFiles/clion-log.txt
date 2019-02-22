@@ -1,0 +1,16 @@
+"D:\cLion\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Zidong\iCloudDrive\Desktop\EE553_CPP
+-- Configuring done
+CMake Error: Cannot determine link language for target "session1".
+CMake Error: CMake can not determine linker language for target: session1
+CMake Error: Cannot determine link language for target "session2".
+CMake Error: CMake can not determine linker language for target: session2
+CMake Error: Cannot determine link language for target "session3".
+CMake Error: CMake can not determine linker language for target: session3
+CMake Error: Cannot determine link language for target "session4".
+CMake Error: CMake can not determine linker language for target: session4
+-- Generating done
+-- Build files have been written to: C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug
+Unable to determine product file path for target session1. Running and debugging will be unavailable.
+Unable to determine product file path for target session2. Running and debugging will be unavailable.
+Unable to determine product file path for target session3. Running and debugging will be unavailable.
+Unable to determine product file path for target session4. Running and debugging will be unavailable.

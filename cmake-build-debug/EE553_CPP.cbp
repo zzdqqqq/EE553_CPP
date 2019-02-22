@@ -1,0 +1,1170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="EE553_CPP"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/data.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 data"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data/fast">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/data.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 data/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_2_Prime">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/data_2_Prime.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 data_2_Prime"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_2_Prime/fast">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/data_2_Prime.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 data_2_Prime/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data2_2">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/data2_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 data2_2"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data2_2/fast">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/data2_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 data2_2/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EE553_CPP">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/EE553_CPP.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 EE553_CPP"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EE553_CPP/fast">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/EE553_CPP.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 EE553_CPP/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data2_3_goldenMeanSearch">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/data2_3_goldenMeanSearch.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 data2_3_goldenMeanSearch"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data2_3_goldenMeanSearch/fast">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/data2_3_goldenMeanSearch.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 data2_3_goldenMeanSearch/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data3_2_vector">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/data3_2_vector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 data3_2_vector"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data3_2_vector/fast">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/data3_2_vector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 data3_2_vector/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data2_binarySearch">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/data2_binarySearch.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 data2_binarySearch"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data2_binarySearch/fast">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/data2_binarySearch.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 data2_binarySearch/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_2_testprocedure">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/data_2_testprocedure.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 data_2_testprocedure"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_2_testprocedure/fast">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/data_2_testprocedure.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 data_2_testprocedure/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data3_1">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/data3_1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 data3_1"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data3_1/fast">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/data3_1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 data3_1/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="session1">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/session1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 session1"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="session1/fast">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/session1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 session1/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="session2">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/session2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 session2"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="session2/fast">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/session2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 session2/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="session3">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/session3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 session3"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="session3/fast">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/session3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 session3/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="session4">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/session4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 session4"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="session4/fast">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/session4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 session4/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hwFraction">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/hwFraction.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 hwFraction"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hwFraction/fast">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/hwFraction.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 hwFraction/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lesson1">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Lesson1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lesson1"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lesson1/fast">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Lesson1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lesson1/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lesson2">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/lesson2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 lesson2"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lesson2/fast">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/lesson2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 lesson2/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lesson3">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Lesson3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lesson3"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lesson3/fast">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Lesson3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lesson3/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lesson3_Body">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Lesson3_Body.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lesson3_Body"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lesson3_Body/fast">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Lesson3_Body.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lesson3_Body/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lesson3_class">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Lesson3_class.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lesson3_class"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lesson3_class/fast">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Lesson3_class.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lesson3_class/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lesson4_Fraction">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Lesson4_Fraction.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lesson4_Fraction"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lesson4_Fraction/fast">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Lesson4_Fraction.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lesson4_Fraction/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lesson4">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Lesson4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lesson4"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lesson4/fast">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Lesson4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lesson4/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lesson4_static">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Lesson4_static.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lesson4_static"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lesson4_static/fast">
+				<Option output="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Lesson4_static.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP"/>
+					<Add directory="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lesson4_static/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP/main.cpp">
+			<Option target="EE553_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP/session1.h">
+			<Option target="session1"/>
+		</Unit>
+		<Unit filename="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP/session2.h">
+			<Option target="session2"/>
+		</Unit>
+		<Unit filename="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP/session3.h">
+			<Option target="session3"/>
+		</Unit>
+		<Unit filename="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/EE553_CPP/session4.h">
+			<Option target="session4"/>
+		</Unit>
+		<Unit filename="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson1/main.cpp">
+			<Option target="Lesson1"/>
+		</Unit>
+		<Unit filename="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson3/main.cpp">
+			<Option target="Lesson3"/>
+		</Unit>
+		<Unit filename="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson3_Body/main.cpp">
+			<Option target="Lesson3_Body"/>
+		</Unit>
+		<Unit filename="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson3_class/main.cpp">
+			<Option target="Lesson3_class"/>
+		</Unit>
+		<Unit filename="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4/Fraction.cpp">
+			<Option target="Lesson4_Fraction"/>
+		</Unit>
+		<Unit filename="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4/Fraction.hh">
+			<Option target="Lesson4_Fraction"/>
+		</Unit>
+		<Unit filename="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4/main.cpp">
+			<Option target="Lesson4"/>
+		</Unit>
+		<Unit filename="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/Lesson4_static/main.cpp">
+			<Option target="Lesson4_static"/>
+		</Unit>
+		<Unit filename="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/data/main.cpp">
+			<Option target="data"/>
+		</Unit>
+		<Unit filename="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/data2_2/main.cpp">
+			<Option target="data2_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/data2_3_goldenMeanSearch/main.cpp">
+			<Option target="data2_3_goldenMeanSearch"/>
+		</Unit>
+		<Unit filename="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/data2_binarySearch/binary_search.cpp">
+			<Option target="data2_binarySearch"/>
+		</Unit>
+		<Unit filename="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/data3_1/main.cpp">
+			<Option target="data3_1"/>
+		</Unit>
+		<Unit filename="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/data3_2_vector/main.cpp">
+			<Option target="data3_2_vector"/>
+		</Unit>
+		<Unit filename="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/data_2_Prime/main.cpp">
+			<Option target="data_2_Prime"/>
+		</Unit>
+		<Unit filename="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/data_2_testprocedure/main.cpp">
+			<Option target="data_2_testprocedure"/>
+		</Unit>
+		<Unit filename="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/hwFraction/main.cpp">
+			<Option target="hwFraction"/>
+		</Unit>
+		<Unit filename="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/lesson2/main.cpp">
+			<Option target="lesson2"/>
+		</Unit>
+		<Unit filename="C:/Users/Zidong/iCloudDrive/Desktop/EE553_CPP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
